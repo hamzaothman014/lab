@@ -1,12 +1,12 @@
 Created an account on gitlab.com.
 Created a repository named "lab" on GitLab.
-On our personal laptop, we created an SSH public/private key pair:
 a) To generate the keys, run:
 bash ssh-keygen -t rsa -b 4096 -C "your_email@example.com" Follow the prompts, and take all defaults for file location and passphrase (if you desire a passphrase).
 
 b) Display the public key and copy it:
 cat ~/.ssh/id_rsa.pub Copy the output.
 Uploaded the public SSH key to GitLab:
+
 Go to GitLab, then navigate to Settings > SSH Keys.
 Paste your public key into the provided field and save it.
 
@@ -38,4 +38,20 @@ try downloading this one and let me know if it works.
 
 
 #04/24/2024
+i learning basic vi editor
+
+vi has 3 modes
+1. escape mode
+2. insert mode
+3. normal mode
+
+
+first thing to do is enter is insert mode
+
+-w: write
+-q: quit
+-!: immediately
+gg - takes to the top of a page
+shift g - take you to the button of a page
+shift d - is to delete a sentence
 
