@@ -1,12 +1,15 @@
+GitLab Practice Notes
+Yesterday, we executed the following steps:
+
 Created an account on gitlab.com.
 Created a repository named "lab" on GitLab.
+On our personal laptop, we created an SSH public/private key pair:
 a) To generate the keys, run:
 bash ssh-keygen -t rsa -b 4096 -C "your_email@example.com" Follow the prompts, and take all defaults for file location and passphrase (if you desire a passphrase).
 
 b) Display the public key and copy it:
 cat ~/.ssh/id_rsa.pub Copy the output.
 Uploaded the public SSH key to GitLab:
-
 Go to GitLab, then navigate to Settings > SSH Keys.
 Paste your public key into the provided field and save it.
 
@@ -26,32 +29,35 @@ git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 These configurations help identify the author of the commits and are necessary for collaborative projects.
 This should correct and clarify your practice notes. Let me know if there's anything else you'd like to add or further details you need!
-
-On Mon, Apr 22, 2024 at 2:06 PM Rashad Othman <rothmaan@gmail.com> wrote:
-try downloading this one and let me know if it works.
-
-
-
 1. git add file name
-2. git commit -m "intial commit"
+2. git commit -m "initial commit'
 3. git push
 
 
 #04/24/2024
-i learning basic vi editor
 
-vi has 3 modes
-1. escape mode
-2. insert mode
-3. normal mode
+#Learning basic vi editor
 
+vi/vim has 3 modes
+  1. esc mode
+  2. insert mode
+  3. normal mode
 
-first thing to do is enter is insert mode
+First thing to do is enter into insert mode/allows you to type
+ -w: write
+ -q: quit
+ -!: immediately
+ -gg: takes you to the top of page
+ -G: takes you to the bottom of page
+ -$: takes you to the end of the line/sentence
+ -0: takes you to the beginning of the line/sentence
+ -dG: deletes the whole file
+ -dd: deletes the line
+ -[0-9]dd: deletes the number of lines specified
+ -uu: undo the previous action
+l-is to move to the right 
+j- is to go down
+h- move the left
+k- is to move up
 
--w: write
--q: quit
--!: immediately
-gg - takes to the top of a page
-shift g - take you to the button of a page
-shift d - is to delete a sentence
 
