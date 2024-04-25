@@ -55,9 +55,10 @@ First thing to do is enter into insert mode/allows you to type
  -dd: deletes the line
  -[0-9]dd: deletes the number of lines specified
  -uu: undo the previous action
-l-is to move to the right 
-j- is to go down
-h- move the left
-k- is to move up
-
+ -l: moves to the right
+ -k: moves up
+ -j: goes down
+ -h: moves left
+ -[0-9](l,k,j,h): moves right,left,down,up to specified number
+ -d$: deletes entire line
 
