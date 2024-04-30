@@ -62,3 +62,17 @@ First thing to do is enter into insert mode/allows you to type
  -[0-9](l,k,j,h): moves right,left,down,up to specified number
  -d$: deletes entire line
 
+
+
+FIle Permission
+
+-Owner Group Others
+ 7     0     0
+
+w (write)  =   4  
+x ( excute) =  1
+r (read)   =   2
+x ( excute) =  1
+
+yy is to copy and p is to paste
+
